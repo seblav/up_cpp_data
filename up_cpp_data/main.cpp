@@ -23,7 +23,7 @@ int main() {
     
     cout<<"Here is the menu : "<<endl;
     for (int i = 0; i < 4; i++) {
-        cout<<i+1<<". "<<menu[i]<<endl;
+        cout<<i+1<<". "<<menu[i]<<" - $"<<price[i]<<endl;
     }
     cout<<"Enter your selection : "<<endl;
     cin>>choice;
